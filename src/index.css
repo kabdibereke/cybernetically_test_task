@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root {
+  --gray: #767783;
+  --white: #FFF;
+  --black:#010203;
+  --green: green;
+  --error-color: #F74646;
+  --light-gray:#F8F8FA;
+  --shadow: 0px 33px 46px rgba(0, 0, 0, 0.07), 0px 12.0455px 16.7908px rgba(0, 0, 0, 0.0313052), 0px 5.84789px 8.1516px rgba(0, 0, 0, 0.0226595), 0px 2.86674px 3.99607px rgba(0, 0, 0, 0.0179317), 0px 1.13351px 1.58005px rgba(0, 0, 0, 0.0136133);;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  background-color: var(--gray-50);
+}
+
+
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container {
+    max-width: 1280px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

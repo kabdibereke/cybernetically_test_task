@@ -1,0 +1,1 @@
+export const tableHead:string[] =['Company','Ticker','ADTV', 'Exchange','Change','Latest Update','P/E Ratio','Close/Last','Volume','Open','Realtime Price','Latest Price']
